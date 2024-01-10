@@ -142,10 +142,7 @@ def record_stats(target, timeout, count, target_url, output):
          statistics['WAN'][0]['Service'][0]['EthernetDiscardPacketsSent']],
 
         ['cellular_stats_discard_packets_received',
-         statistics['WAN'][0]['Service'][0]['EthernetDiscardPacketsReceived']],
-
-        ['cellular_stats_multicast_packets_received',
-         statistics['WAN'][0]['Service'][0]['MulticastPacketsReceived']]
+         statistics['WAN'][0]['Service'][0]['EthernetDiscardPacketsReceived']]
     ]
 
     column_names = []
